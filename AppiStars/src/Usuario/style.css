@@ -1,0 +1,29 @@
+.usuario {
+  text-align: center;
+  padding: 30px;
+}
+
+.card-usuario {
+  max-width: 500px;
+  margin: auto;
+  background: #020617;
+  border: 1px solid #ffe81f;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.mensaje {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.frase {
+  font-style: italic;
+  color: #ffe81f;
+  margin-bottom: 15px;
+}
+
+.meme {
+  width: 100%;
+  border-radius: 10px;
+}

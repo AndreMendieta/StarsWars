@@ -1,0 +1,59 @@
+.original {
+  padding: 20px;
+  text-align: center;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* CARD */
+.card {
+  background: #020617;
+  border: 1px solid #ffe81f;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffe81f;
+}
+
+/* BOTONES */
+.opciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.opciones button,
+.card button {
+  padding: 10px;
+  background: #000;
+  color: #ffe81f;
+  border: 1px solid #ffe81f;
+  cursor: pointer;
+}
+
+.card input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  background: #000;
+  color: #ffe81f;
+  border: 1px solid #ffe81f;
+}
+
+.resultado {
+  margin-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.info {
+  padding: 20px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffe81f;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #020617;
+  border: 1px solid #ffe81f;
+  border-radius: 12px;
+  padding: 20px;
+  transition: 0.3s;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ffe81f;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p,
+.card li {
+  color: #ccc;
+}
