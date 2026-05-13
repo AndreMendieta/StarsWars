@@ -1,20 +1,24 @@
-.c-menu {
+.nav-user {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 15px;
-  background: #000;
-  border-bottom: 1px solid #ffe81f;
+  align-items: center;
+  gap: 1rem;
 }
 
-.c-menu a {
-  color: #ffe81f;
-  text-decoration: none;
+.nav-icon {
+  color: #FFE81F;
+  font-size: 0.9rem;
+}
+
+.btn-logout {
+  background: #FFE81F;
+  color: #000;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
   font-weight: bold;
-  transition: 0.3s;
 }
 
-.c-menu a:hover {
-  color: #fff;
-  text-shadow: 0 0 10px #ffe81f;
+.btn-logout:hover {
+  background: #fff;
 }
